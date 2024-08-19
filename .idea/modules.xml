@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/CursoJavaDevDojo.iml" filepath="$PROJECT_DIR$/CursoJavaDevDojo.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/CursoJava.iml" filepath="$PROJECT_DIR$/CursoJava.iml" />
+>>>>>>> 8687079491924e6bef53053e55793198c60f7542
       <module fileurl="file://$PROJECT_DIR$/Maratona-Java/Maratona-Java.iml" filepath="$PROJECT_DIR$/Maratona-Java/Maratona-Java.iml" />
     </modules>
   </component>
