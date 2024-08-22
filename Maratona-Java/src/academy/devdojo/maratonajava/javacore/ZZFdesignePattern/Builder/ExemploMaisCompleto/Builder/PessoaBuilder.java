@@ -66,13 +66,14 @@ public class PessoaBuilder {
         return this;
     }
 
+
+    public static PessoaBuilder build() {
+        return new PessoaBuilder();
+    }
+
     public Pessoa get() {
         this.pessoa.setEndereco(this.endereco);
         this.pessoa.setTelefones(this.telefones);
         return this.pessoa;
-    }
-
-    public static PessoaBuilder build() {
-        return new PessoaBuilder();
     }
 }

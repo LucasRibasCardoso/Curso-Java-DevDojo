@@ -89,4 +89,4 @@ Para um exemplo mais robusto, acesse :
 
 Artigo -  [https://mballem.com/post/simplificando-com-builder-pattern/](https://mballem.com/post/simplificando-com-builder-pattern/)
 
-Meu GitHub - https://github.com/LucasRibasCardoso/Curso-Java-DevDojo/tree/main/Maratona-Java/src/academy/devdojo/maratonajava/javacore/ZZFdesignePattern/Builder/ExemploMaisCompleto
+Meu GitHub - https://github.com/LucasRibasCardoso/Curso-Java-DevDojo/tree/main/Maratona-Java/src/academy/devdojo/maratonajava/javacore/ZZFdesignePattern/Builder

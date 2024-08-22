@@ -13,7 +13,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "Client{" +
                 "nome='" + nome + '\'' +
                 ", tipoCliente=" + tipoCliente +
                 ", tipoPagamento=" + tipoPagamento +

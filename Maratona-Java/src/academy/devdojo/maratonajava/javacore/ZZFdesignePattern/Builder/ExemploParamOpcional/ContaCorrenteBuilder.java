@@ -12,8 +12,43 @@ package academy.devdojo.maratonajava.javacore.ZZFdesignePattern.Builder.ExemploP
 
 public class ContaCorrenteBuilder {
 
+    private String nomeTitular;
     private int numeroConta;
+    private int numeroAgencia;
     private double saldo;
 
 
+    public ContaCorrenteBuilder addNomeTitular (String nome) {
+        this.nomeTitular = nome;
+        return this;
+    }
+
+    public ContaCorrenteBuilder addNumeroConta(int numero) {
+        this.numeroConta = numero;
+        return this;
+    }
+
+    public ContaCorrenteBuilder addNumeroAgencia(int numero) {
+        this.numeroAgencia = numero;
+        return this;
+    }
+
+    public ContaCorrenteBuilder addSaldo(double saldo) {
+        this.saldo = saldo;
+        return this;
+    }
+
+    public ContaCorrenteBuilder build() {
+        return new ContaCorrenteBuilder();
+    }
+
+    @Override
+    public String toString() {
+        return "ContaCorrenteBuilder{" +
+                "nomeTitular='" + nomeTitular + '\'' +
+                ", numeroConta=" + numeroConta +
+                ", numeroAgencia=" + numeroAgencia +
+                ", saldo=" + saldo +
+                '}';
+    }
 }
